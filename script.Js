@@ -57,4 +57,37 @@
 // var average = sum / arr.length;
 // console.log("Average:", average);
 
+// method splice
 
+// var arr = [10,20,30,40,50]
+// arr.splice(2,1,30)
+// console.log(arr)
+
+// var arr = [1,2,3,5]
+// arr.splice(3,0,4)
+// console.log(arr)
+
+// var arr = ["a","b",'c','d']
+// arr.splice(1,1,'x')
+// console.log(arr)
+
+// var arr = [100,200,300,400,500]
+// var arr2 = arr.slice(1,4)
+// console.log(arr2)
+
+// var arr = [10,20,30,40,50]
+// var arr2 = arr.slice(2,5)
+// console.log(arr2)
+
+// var arr = [10,20,30,40,50]
+// arr.splice(1,3)
+// console.log(arr)
+
+// var arr = [1,2,3];
+// var arr1 = [4,5,6];
+// console.log((arr.slice(0,3)).concate(arr1.slice(0.3)))
+
+// var arr = [1,2,3,4];
+// var arr1 = arr.slice(0,5)
+// arr1.splice(4,0,5)
+// console.log(arr)
