@@ -91,3 +91,37 @@
 // var arr1 = arr.slice(0,5)
 // arr1.splice(4,0,5)
 // console.log(arr)
+
+// var arr = [10,20,30,40,50];
+// arr.splice(0,2)
+// console.log(arr)
+
+// var arr = [1,2,3,4,5]
+// arr.splice(0,2,4,1,)
+// console.log(arr)
+
+// nested forloops & arrays
+
+// var row = 3;
+// var coloum = 3;
+
+
+// for (var i = 0; i < row; i++) {
+//        var star = "";
+//     for (var j = 0; j < coloum; j++) {
+//         star += "*"
+//     }
+// }console.log(star)
+
+// var row = 3
+// var col = 3
+// var line = 1;
+
+//     for(var i = 0; i < row; i++){
+//         var count = "";
+//         for(var j = 0; j < col; j++){
+//             count += line;
+//             line++; 
+//         }
+//         console.log(count)
+//     }
