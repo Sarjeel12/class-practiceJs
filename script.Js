@@ -125,3 +125,16 @@
 //         }
 //         console.log(count)
 //     }
+
+// var row = 3
+// var col = 3
+// var line = 1;
+
+//     for(var i = 0; i < row; i++){
+//         var count = "";
+//         for(var j = 0; j < col; j++){
+//             count += line * 3 + " ";
+//             line++; 
+//         }
+//         console.log(count)
+//     }
