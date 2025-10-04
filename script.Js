@@ -164,9 +164,32 @@
 
 
 // var arr1 = []
+var n = 10;
 
-for (var i = 0; i <= 4; i++) {
-    for (var j = 0; j <= i; j++) {
-        document.writeln(" * ")
-    } document.writeln("<br/>")
+// Upper part
+for (var i = 1; i <= n; i++) {
+    var line = "";
+    // spaces
+    for (var j = 1; j <= n - i; j++) {
+        line += " ";
+    }
+    // stars
+    for (var k = 1; k <= 2 * i - 1; k++) {
+        line += "*";
+    }
+    console.log(line);
+}
+
+// Lower part
+for (var i = n - 1; i >= 1; i--) {
+    var line = "";
+    // spaces
+    for (var j = 1; j <= n - i; j++) {
+        line += " ";
+    }
+    // stars
+    for (var k = 1; k <= 2 * i - 1; k++) {
+        line += "*";
+    }
+    console.log(line);
 }
