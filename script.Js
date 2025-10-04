@@ -127,7 +127,7 @@
 //     }
 
 // var row = 3
-// var col = 3
+// var col = 1
 // var line = 1;
 
 //     for(var i = 0; i < row; i++){
@@ -138,3 +138,35 @@
 //         }
 //         console.log(count)
 //     }
+
+
+// var row = 3;
+// var col = 3;
+// var line = 1;
+
+// for (var i = 0; i < row; i++) {
+//        var star = "";
+//     for (var j = 0; j < col; j++) {
+//         star += "*";
+//         line++ 
+//     }
+// }console.log(star)
+
+
+// Marksheet using loop
+// var subjects = +prompt("Enter")
+// var name = prompt("Enter your name");
+// var subNames = +prompt("Enter length of Subjects")
+
+// for(var i = 0; i < subjects; i++){
+//     if(isNaN())
+// }
+
+
+// var arr1 = []
+
+for (var i = 0; i <= 4; i++) {
+    for (var j = 0; j <= i; j++) {
+        document.writeln(" * ")
+    } document.writeln("<br/>")
+}
