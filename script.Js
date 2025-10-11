@@ -163,33 +163,110 @@
 // }
 
 
-// var arr1 = []
-var n = 10;
+// // var arr1 = []
+// var n = 10;
 
-// Upper part
-for (var i = 1; i <= n; i++) {
-    var line = "";
-    // spaces
-    for (var j = 1; j <= n - i; j++) {
-        line += " ";
-    }
-    // stars
-    for (var k = 1; k <= 2 * i - 1; k++) {
-        line += "*";
-    }
-    console.log(line);
-}
+// // Upper part
+// for (var i = 1; i <= n; i++) {
+//     var line = "";
+//     // spaces
+//     for (var j = 1; j <= n - i; j++) {
+//         line += " ";
+//     }
+//     // stars
+//     for (var k = 1; k <= 2 * i - 1; k++) {
+//         line += "*";
+//     }
+//     console.log(line);
+// }
 
-// Lower part
-for (var i = n - 1; i >= 1; i--) {
-    var line = "";
-    // spaces
-    for (var j = 1; j <= n - i; j++) {
-        line += " ";
-    }
-    // stars
-    for (var k = 1; k <= 2 * i - 1; k++) {
-        line += "*";
-    }
-    console.log(line);
-}
+// // Lower part
+// for (var i = n - 1; i >= 1; i--) {
+//     var line = "";
+//     // spaces
+//     for (var j = 1; j <= n - i; j++) {
+//         line += " ";
+//     }
+//     // stars
+//     for (var k = 1; k <= 2 * i - 1; k++) {
+//         line += "*";
+//     }
+//     console.log(line);
+// }
+
+
+// Switch Statements Marksheet
+
+// var english = +prompt("Enter English marks");
+// var sindhi = +prompt("Enter Sindhi marks");
+// var urdu = +prompt("Enter Urdu marks");
+// var maths = +prompt("Enter Maths marks");
+
+// var total = 400;
+// var obt = english + sindhi + urdu + maths;
+
+// console.log("My total marks are " + obt + " out of " + total);
+
+// var percentage = (obt / total) * 100;
+// console.log("Percentage: " + percentage + "%");
+
+// // Pass or Fail using switch
+// switch (percentage) {
+//     case (percentage >= 50):
+//         console.log("Result: Pass");
+//         break;
+//     default:
+//         console.log("Result: Fail");
+//         break;
+// }
+
+// // Grade using switch
+// switch (percentage) {
+//     case (percentage >= 90 && percentage <= 100):
+//         console.log("Grade: A");
+//         break;
+//     case (percentage >= 80 && percentage < 90):
+//         console.log("Grade: B");
+//         break;
+//     case (percentage >= 70 && percentage < 80):
+//         console.log("Grade: C");
+//         break;
+//     case (percentage >= 60 && percentage < 70):
+//         console.log("Grade: D");
+//         break;
+//     case (percentage >= 50 && percentage < 60):
+//         console.log("Grade: E");
+//         break;
+//     default:
+//         console.log("Grade: F");
+//         break;
+// }
+
+// var num1 = +prompt("Enter first number");
+// var num2 = +prompt("Enter second number");
+// var operator = prompt("Enter operator (+, -, *, /)");
+
+// switch (operator) {
+//     case '+':
+//         console.log("Result: " + (num1 + num2));
+//         break;
+
+//     case '-':
+//         console.log("Result: " + (num1 - num2));
+//         break;
+
+//     case '*':
+//         console.log("Result: " + (num1 * num2));
+//         break;
+
+//     case '/':
+//         console.log("Result: " + (num1 / num2));
+//         break;
+
+//     default:
+//         console.log("Invalid operator!");
+//         break;
+// }
+
+
+
