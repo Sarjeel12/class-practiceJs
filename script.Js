@@ -211,7 +211,7 @@
 // console.log("Percentage: " + percentage + "%");
 
 // // Pass or Fail using switch
-// switch (percentage) {
+// switch (true) {
 //     case (percentage >= 50):
 //         console.log("Result: Pass");
 //         break;
@@ -221,7 +221,7 @@
 // }
 
 // // Grade using switch
-// switch (percentage) {
+// switch (true) {
 //     case (percentage >= 90 && percentage <= 100):
 //         console.log("Grade: A");
 //         break;
