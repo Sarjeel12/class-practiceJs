@@ -269,4 +269,11 @@
 // }
 
 
+// Date & Time
+
+//  var dayNames = ["Jan", "Feb", "March", "April", "May", "June", "July", "Aug", "sept", "Oct", "Nov", "Dec"];
+//  var now = new Date();
+//  var theDay = now.getMonth();
+//  var nameOfToday = dayNames[theDay];
+// console.log(nameOfToday)
 
