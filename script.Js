@@ -277,3 +277,45 @@
 //  var nameOfToday = dayNames[theDay];
 // console.log(nameOfToday)
 
+// var month = ["Jan", "Feb", "March", "April", "May", "June", "July", "Aug", "sept", "Oct", "Nov", "Dec"];
+// // var day = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"];
+
+// var date = new Date ();
+// // var day = date.getDay();
+// // var date = date.getDate();
+// var month = date.getMonth();
+// // var year = date.getFullYear();
+// // var currentTime = date.getHours();
+// console.log(month)
+
+// diff
+// var today = new Date();
+// var doomsDay = new Date ("Sept 27, 2050");
+
+// var msToday = today.getTime();
+// var msdoomsDay = doomsDay.getTime();
+
+// var diff = msdoomsDay - msToday;
+
+// var msDiff = diff / (1000 * 60 * 60 * 24 * 365)
+
+// console.log (msDiff = Math.ceil  (msDiff))
+
+
+// var today = new Date();
+// var birthInput = prompt("Enter your birthdate (e.g. Sept 27, 2002):");
+// var birthyear = new Date(birthInput);
+
+// var msToday = today.getTime();
+// var msbirthyear = birthyear.getTime();
+
+// var diff = msToday - msbirthyear;
+// var msDiff = diff / (1000 * 60 * 60 * 24 * 365);
+
+// console.log("Your age in years:", Math.floor(msDiff));
+
+// var daysToAdd = 10000;
+// var futureDate = new Date(msbirthyear + (daysToAdd * 24 * 60 * 60 * 1000));
+
+// console.log("Date after 10,000 days from your birth:", futureDate);
+
