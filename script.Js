@@ -195,6 +195,13 @@
 // }
 
 
+
+
+
+
+
+
+
 // Switch Statements Marksheet
 
 // var english = +prompt("Enter English marks");
