@@ -326,3 +326,22 @@
 
 // console.log("Date after 10,000 days from your birth:", futureDate);
 
+
+// let countNumber = 0;
+
+// const count = () => {
+//   countNumber = countNumber + 1;
+//   console.log(countNumber);
+// };
+
+
+let countNum = -0;
+
+const countSub = () => {
+  countNum = countNum - 1;
+  console.log(countNum);
+};
+
+
+// console.log(countNumber)
+
