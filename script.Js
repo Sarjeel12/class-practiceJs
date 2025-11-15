@@ -335,13 +335,97 @@
 // };
 
 
-let countNum = -0;
+// let countNum = -0;
 
-const countSub = () => {
-  countNum = countNum - 1;
-  console.log(countNum);
-};
+// const countSub = () => {
+//   countNum = countNum - 1;
+//   console.log(countNum);
+// };
 
 
 // console.log(countNumber)
 
+// const API_KEY = '9137c73c7017ca14320414d67265a83c'
+
+// const inputValue = document.querySelector("#cityName")
+// const myResult = document.querySelector("#result").innerText
+// console.log(myResult)
+
+// const handleSubmit = () => {
+//   console.log("city name = " , inputValue.value)
+
+//      const axios = require('axios');
+
+
+//   axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${nameInput.value}}&appid=${API_KEY}`)
+//     .then(function (response) {
+//       // handle success
+//       console.log(response);
+//       document.getElementById('result').innerText = `Your ${inputValue.value} weather is ${ }`
+//     })
+//     .catch(function (error) {
+//       // handle error
+//       console.log(error);
+//     })
+
+// }
+
+// function showName() {
+//   var nameInput = document.getElementById("userName"); // get input element
+
+
+//   var value = nameInput.value; // get value inside input
+//   console.log(value); // print it in console
+
+//   const axios = require('axios');
+
+//   // Make a request for a user with a given ID
+//   axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${nameInput.value}}&appid=${API_KEY}`)
+//     .then(function (response) {
+//       // handle success
+//       console.log(response);
+//     })
+//     .catch(function (error) {
+//       // handle error
+//       console.log(error);
+//     })
+
+// }
+
+
+
+
+// MCQS
+var mcqsQuestions = [
+  {
+    question: "JS is Easy OR Not",
+    opt: ["yes", "No", "may be", "Kabhi nh"],
+    ans: "b"
+  },
+  {
+    question: "Html is Easy?",
+    opt: ["yes", "No", "may be", "Kabhi nh"],
+    ans: "a"
+  },
+];
+
+var score = 0;
+
+function showQuiz() {
+  var countScore = 100/mcqsQuestions.length;
+  for (var i = 0; i < mcqsQuestions.length; i++) {
+    var userInpt = prompt(`
+      Question ${i + 1} : ${mcqsQuestions[i].question}  ?
+      a) ${mcqsQuestions[i].opt[0]},
+      b) ${mcqsQuestions[i].opt[1]},
+      c) ${mcqsQuestions[i].opt[4]},
+      d) ${mcqsQuestions[i].opt[3]}
+      `)
+
+    if (userInpt.toLowerCase() == mcqsQuestions[i].ans) {
+      score = score + countScore
+    }
+  } 
+  alert("Your Total score is " + score);
+}
+showQuiz();
